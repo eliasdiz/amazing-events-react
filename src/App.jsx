@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import NavBar from './componentes/Navbar/NavBar';
+import Layouts from './Layouts/Layouts';
+import MainHome from './componentes/MainHome/MainHome';
+
 
 function App() {
   return (
-    <NavBar />
+    <Layouts>
+      <MainHome />
+    </Layouts>
   );
 }
 

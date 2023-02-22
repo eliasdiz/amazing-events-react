@@ -1,0 +1,24 @@
+.footer {
+    border: 1px solid;
+    min-height: 9vh;
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer div {
+    margin-left: 2rem;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer img {
+    height: 2rem;
+}
+
+h4 {
+    margin-right: 2rem;
+}
