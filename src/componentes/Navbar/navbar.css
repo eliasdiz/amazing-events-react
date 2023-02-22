@@ -1,0 +1,12 @@
+.navbar {
+    min-height: 5rem;
+    background-color: rgba(128, 128, 128, 0.699);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
+    width: 3rem;
+    margin-left: 1rem;
+}
